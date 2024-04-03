@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q4Practice1</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+
+</head>
+<body class="bg-dark">
+	
+	<div style="margin: auto; width: 50%; padding: 10px; text-align:center; padding-top:150px;" >
+	<p id="answer" style="font-size: 40px; color:white; font-family:Rockwell">The equivalent amount of ₱100 in DOLLAR is</p>
+	<a href="index.html" class="btn btn-info">Back to Main Page</a>
+	<script type="text/javascript">
+		let a, b, c; //declare variables
+		a=100; //to be converted
+		b=0.018; //dollar
+		c=(a*b);
+		document.getElementById("answer").innerHTML="<p>The equivalent amount of ₱<span style='font-family:Consolas; color:black;' class='bg-secondary'>100</span> in <span style='font-family:Consolas; color:black;' class='bg-secondary'>DOLLAR</span> is<p>"+ c;
+	</script>
+	</div>
+	<br><br>
+	<p style="font-size: 15px; color:white; font-family:Consolas; text-align:center">As of APRIL 3 2024</p>
+
+</body>
+</html>
